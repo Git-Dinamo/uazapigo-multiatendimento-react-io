@@ -1,0 +1,147 @@
+{
+  "id": "ev_4c13dfb8f21e24820b5882af3bd616604892226e95708d66278e78ad8a74af6b",
+  "subject": {
+    "kind": "web-capture",
+    "name": "https://uazapigo-multiatendimento.bubbleapps.io/"
+  },
+  "operation": "web_scripts_save",
+  "params": {
+    "max_scripts": 5000,
+    "output_directory": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\scripts"
+  },
+  "result": {
+    "bytes": 102,
+    "files_folder": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\scripts\\files",
+    "manifest": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\scripts\\manifest.json",
+    "output_directory": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\scripts",
+    "scripts": [
+      {
+        "bytes": 6,
+        "path": "files/inline/script-0.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-1.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-2.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-3.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-4.js",
+        "sha256": "ed5b8120601641c516d02ed9dc643a59648524248d5e2af877da39ea253c723e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-5.js",
+        "sha256": "ed5b8120601641c516d02ed9dc643a59648524248d5e2af877da39ea253c723e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-6.js",
+        "sha256": "ed5b8120601641c516d02ed9dc643a59648524248d5e2af877da39ea253c723e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-7.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-8.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-9.js",
+        "sha256": "ed5b8120601641c516d02ed9dc643a59648524248d5e2af877da39ea253c723e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-10.js",
+        "sha256": "ed5b8120601641c516d02ed9dc643a59648524248d5e2af877da39ea253c723e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-11.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-12.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-13.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-14.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-15.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      },
+      {
+        "bytes": 6,
+        "path": "files/inline/script-16.js",
+        "sha256": "8c7ed2d9be59e21cf7cfc7da75c6c0cb7dd751f4a870f0f9236f0f35cbaf584e",
+        "url": ""
+      }
+    ],
+    "skipped": []
+  },
+  "summary": "Exported 17 script(s) (102 bytes) to C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\scripts.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 17,
+    "total": 17
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\scripts"
+    }
+  ],
+  "links": [
+    "ev_be1eeb7ffcec67afedd9cc0c09bc652ccf0e436d3725c4d41a70392cfe4affe7"
+  ]
+}

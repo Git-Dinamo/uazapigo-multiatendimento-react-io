@@ -1,0 +1,1046 @@
+{
+  "a11y": {
+    "images_without_alt": 1,
+    "landmarks": {},
+    "lang": "pt",
+    "unnamed_controls": 5,
+    "unnamed_examples": [
+      "button.bubble-element",
+      "button.bubble-element",
+      "button.bubble-element",
+      "button.bubble-element",
+      "a"
+    ]
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [
+      "https://fonts.googleapis.com/css"
+    ],
+    "images": [
+      {
+        "alt": "",
+        "h": 1,
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "w": 1
+      },
+      {
+        "alt": "",
+        "h": 384,
+        "src": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/cdn-cgi/image/f=auto,w=384,h=384,fit=contain,dpr=1/f1680709943042x969204118780854700/Furore%5B1%5D.png",
+        "w": 384
+      },
+      {
+        "alt": "Bubble",
+        "h": 17,
+        "src": "https://a3f482aa37473c68f97b76bd2e4a3782.cdn.bubble.io/f1585607370503x914556455591480200/banner-icon.svg",
+        "w": 16
+      }
+    ],
+    "inline_scripts": 31,
+    "requests": [
+      {
+        "bytes": 9117,
+        "type": "script",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/package/early_js/05ae9fe83d6b755291132aab9d325d70918aafd336da1bd91a41a31c8b25734b/early.js"
+      },
+      {
+        "bytes": 28284,
+        "type": "link",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/package/run_css/3d488425717b0f8702af5a34e9a0929c575406cf68c49c7cd05cdca90134d439/uazapigo-multiatendimento/live/index/xfalse/xfalse/run.css"
+      },
+      {
+        "bytes": 31385,
+        "type": "script",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/package/pre_run_jquery_js/dee903a9e36db713e4c86d0cdd96d921e37be0c1293ed8dee29e2e4d7713b9ff/pre_run_jquery.js"
+      },
+      {
+        "bytes": 1001001,
+        "type": "script",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/package/run_js/13915f71479be563a816e4ccf1f0fa080be697c64ee6e36efbbe4a12ba5a5f5c/xfalse/x29/run.js"
+      },
+      {
+        "bytes": 235623,
+        "type": "script",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/package/static_js/6d53825a1faa22c0ccc6afa5e0de98682d31a7f6c8750ba5204ec599eb4b8ed9/uazapigo-multiatendimento/live/index/xnull/xfalse/xfalse/xfalse/static.js"
+      },
+      {
+        "bytes": 10646,
+        "type": "link",
+        "url": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1529535883505x638509931974113000/iziToast.min.css"
+      },
+      {
+        "bytes": 218981,
+        "type": "script",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/package/dynamic_js/b86b6028307528a17106871519348a9a8de67d20af22d82d537f1a4804726d32/uazapigo-multiatendimento/live/index/xnull/xfalse/xfalse/pt_br/xfalse/xfalse/dynamic.js"
+      },
+      {
+        "bytes": 5271,
+        "type": "script",
+        "url": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1529535866629x800965303787961600/iziToast.min.js"
+      },
+      {
+        "bytes": 3652,
+        "type": "script",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.8/push.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://unpkg.com/@popperjs/core@2"
+      },
+      {
+        "bytes": 1430,
+        "type": "link",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.css"
+      },
+      {
+        "bytes": 10975,
+        "type": "script",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://unpkg.com/mic-recorder-to-mp3@2.2.2/dist/index.js"
+      },
+      {
+        "bytes": 8932,
+        "type": "script",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
+      },
+      {
+        "bytes": 2190,
+        "type": "link",
+        "url": "https://fonts.googleapis.com/css"
+      },
+      {
+        "bytes": 583,
+        "type": "xmlhttprequest",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/api/1.1/init/data"
+      },
+      {
+        "bytes": 187739,
+        "type": "other",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/static/icon_libraries/material-icons-4.0.0-filled.svg"
+      },
+      {
+        "bytes": 212174,
+        "type": "other",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/static/icon_libraries/material-icons-4.0.0-outlined.svg"
+      },
+      {
+        "bytes": 361,
+        "type": "xmlhttprequest",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/user/hi"
+      },
+      {
+        "bytes": 15750,
+        "type": "img",
+        "url": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/cdn-cgi/image/f=auto,w=384,h=384,fit=contain,dpr=1/f1680709943042x969204118780854700/Furore%5B1%5D.png"
+      },
+      {
+        "bytes": 10249,
+        "type": "other",
+        "url": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1530294839424x143528842134401200/Icon-no-clearspace.png"
+      },
+      {
+        "bytes": 308,
+        "type": "xmlhttprequest",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/bug/client_log"
+      },
+      {
+        "bytes": 304,
+        "type": "xmlhttprequest",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/user/m"
+      },
+      {
+        "bytes": 1003,
+        "type": "img",
+        "url": "https://a3f482aa37473c68f97b76bd2e4a3782.cdn.bubble.io/f1585607370503x914556455591480200/banner-icon.svg"
+      },
+      {
+        "bytes": 308,
+        "type": "xmlhttprequest",
+        "url": "https://uazapigo-multiatendimento.bubbleapps.io/user/apm"
+      }
+    ],
+    "scripts": [
+      "https://uazapigo-multiatendimento.bubbleapps.io/package/early_js/05ae9fe83d6b755291132aab9d325d70918aafd336da1bd91a41a31c8b25734b/early.js",
+      "https://uazapigo-multiatendimento.bubbleapps.io/package/pre_run_jquery_js/dee903a9e36db713e4c86d0cdd96d921e37be0c1293ed8dee29e2e4d7713b9ff/pre_run_jquery.js",
+      "https://uazapigo-multiatendimento.bubbleapps.io/package/run_js/13915f71479be563a816e4ccf1f0fa080be697c64ee6e36efbbe4a12ba5a5f5c/xfalse/x29/run.js",
+      "https://uazapigo-multiatendimento.bubbleapps.io/package/static_js/6d53825a1faa22c0ccc6afa5e0de98682d31a7f6c8750ba5204ec599eb4b8ed9/uazapigo-multiatendimento/live/index/xnull/xfalse/xfalse/xfalse/static.js",
+      "https://uazapigo-multiatendimento.bubbleapps.io/package/dynamic_js/b86b6028307528a17106871519348a9a8de67d20af22d82d537f1a4804726d32/uazapigo-multiatendimento/live/index/xnull/xfalse/xfalse/pt_br/xfalse/xfalse/dynamic.js",
+      "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1529535866629x800965303787961600/iziToast.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.8/push.min.js",
+      "https://unpkg.com/@popperjs/core@2",
+      "https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js",
+      "https://unpkg.com/mic-recorder-to-mp3@2.2.2/dist/index.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css?family=Open+Sans:regular%7COpen+Sans:regular%7COpen+Sans:500%7COpen+Sans:600%7COpen+Sans:600%7COpen+Sans:700%7COpen+Sans:800",
+      "https://uazapigo-multiatendimento.bubbleapps.io/package/run_css/3d488425717b0f8702af5a34e9a0929c575406cf68c49c7cd05cdca90134d439/uazapigo-multiatendimento/live/index/xfalse/xfalse/run.css",
+      "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1529535883505x638509931974113000/iziToast.min.css",
+      "https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.css"
+    ]
+  },
+  "breakpoints": [],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 7,
+        "value": "#ffffff"
+      },
+      {
+        "count": 2,
+        "value": "#182334"
+      },
+      {
+        "count": 1,
+        "value": "#b7bbcd33"
+      },
+      {
+        "count": 1,
+        "value": "#25d366"
+      },
+      {
+        "count": 1,
+        "value": "#f1f2f6"
+      },
+      {
+        "count": 1,
+        "value": "#daf7f3"
+      },
+      {
+        "count": 1,
+        "value": "#00000099"
+      },
+      {
+        "count": 1,
+        "value": "#242e42"
+      },
+      {
+        "count": 1,
+        "value": "#028edf0a"
+      },
+      {
+        "count": 1,
+        "value": "#028edfcc"
+      },
+      {
+        "count": 1,
+        "value": "#0205d3"
+      }
+    ],
+    "css_variables": {
+      "--cc-alert": "rgba(250, 181, 21, 1)",
+      "--cc-background": "rgba(36, 46, 66, 1)",
+      "--cc-destructive": "rgba(214, 39, 39, 1)",
+      "--cc-primary": "rgba(2,142,223,1)",
+      "--cc-primary_contrast": "rgba(24, 35, 52, 1)",
+      "--cc-success": "rgba(23, 219, 78, 1)",
+      "--cc-surface": "rgba(229, 245, 255, 1)",
+      "--cc-wa_cor_borda": "rgba(235,236,237,1)",
+      "--cc-wa_cor_icone": "rgba(84,101,111,1)",
+      "--cc-wa_fundo_-_1": "rgba(241,242,246,1)",
+      "--cc-wa_text_-_1": "rgba(17,27,33,1)",
+      "--cc-wa_text_-_2": "rgba(102,119,129,1)",
+      "--cc-wa_verde_-_1": "rgba(0,128,105,1)",
+      "--cc-wa_verde_-_2": "rgba(37,211,102,1)",
+      "--cf-app-font": "\"Open Sans\"",
+      "--color_alert_default": "rgba(250, 181, 21, 1)",
+      "--color_alert_default_rgb": "250, 181, 21",
+      "--color_background_default": "rgba(255, 255, 255, 0)",
+      "--color_background_default_rgb": "255, 255, 255",
+      "--color_danger_default_rgb": "rgba(176, 32, 12, 1)",
+      "--color_destructive_default": "rgba(255, 0, 0, 1)",
+      "--color_destructive_default_rgb": "255, 0, 0",
+      "--color_primary_contrast_default": "rgba(255, 255, 255, 1)",
+      "--color_primary_contrast_default_rgb": "255, 255, 255",
+      "--color_primary_default": "rgba(2, 5, 211, 1)",
+      "--color_primary_default_rgb": "2, 5, 211",
+      "--color_success_default": "rgba(23, 219, 78, 1)",
+      "--color_success_default_rgb": "23, 219, 78",
+      "--color_surface_default": "rgba(255, 255, 255, 1)",
+      "--color_surface_default_rgb": "255, 255, 255",
+      "--color_text_default": "rgba(9, 23, 71, 1)",
+      "--color_text_default_rgb": "9, 23, 71",
+      "--font_default": "'Lato'"
+    },
+    "font_faces": [
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "FontAwesome",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "normal"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 5,
+        "value": "14px"
+      },
+      {
+        "count": 1,
+        "value": "18px"
+      },
+      {
+        "count": 1,
+        "value": "25px"
+      },
+      {
+        "count": 1,
+        "value": "12px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 5,
+        "value": "700"
+      },
+      {
+        "count": 2,
+        "value": "400"
+      },
+      {
+        "count": 1,
+        "value": "600"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 7,
+        "value": "\"Open Sans\""
+      },
+      {
+        "count": 1,
+        "value": "Arial, sans-serif"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 4,
+        "value": "24px"
+      },
+      {
+        "count": 3,
+        "value": "65px"
+      },
+      {
+        "count": 1,
+        "value": "360px"
+      },
+      {
+        "count": 1,
+        "value": "20px"
+      },
+      {
+        "count": 1,
+        "value": "16px"
+      },
+      {
+        "count": 1,
+        "value": "31px"
+      },
+      {
+        "count": 1,
+        "value": "33px"
+      },
+      {
+        "count": 1,
+        "value": "48px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 9,
+        "value": "20px"
+      },
+      {
+        "count": 7,
+        "value": "5px"
+      },
+      {
+        "count": 5,
+        "value": "4px"
+      },
+      {
+        "count": 1,
+        "value": "10px"
+      },
+      {
+        "count": 1,
+        "value": "0px 0px 5px 5px"
+      },
+      {
+        "count": 1,
+        "value": "3px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgba(0, 128, 105, 0.5) 2px 2px 16px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.2) 0px 0px 20px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.41) 0px 0px 20px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 15,
+        "value": "30px"
+      },
+      {
+        "count": 9,
+        "value": "8px"
+      },
+      {
+        "count": 9,
+        "value": "20px"
+      },
+      {
+        "count": 8,
+        "value": "6px"
+      },
+      {
+        "count": 7,
+        "value": "4px"
+      },
+      {
+        "count": 3,
+        "value": "10px"
+      },
+      {
+        "count": 1,
+        "value": "-1px"
+      },
+      {
+        "count": 1,
+        "value": "16px"
+      },
+      {
+        "count": 1,
+        "value": "7px"
+      },
+      {
+        "count": 1,
+        "value": "9px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 5,
+        "value": "#ffffff"
+      },
+      {
+        "count": 2,
+        "value": "#667781"
+      },
+      {
+        "count": 1,
+        "value": "#111b21"
+      }
+    ]
+  },
+  "forms": [],
+  "headings": [],
+  "health": {
+    "errors": [
+      {
+        "kind": "console",
+        "text": "Action Clear value of 💬 chat Input - The plugin Chat Input PRO / action Clear value of a 💬 chat Input threw the following error: TypeError: instance.data.reset is not a function",
+        "url": ""
+      }
+    ],
+    "failed_requests": []
+  },
+  "lang": "pt",
+  "layouts": [
+    {
+      "blocks": [],
+      "page_h": 900,
+      "page_w": 1440,
+      "type": {
+        "body": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [],
+      "page_h": 900,
+      "page_w": 768,
+      "type": {
+        "body": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [],
+      "page_h": 900,
+      "page_w": 390,
+      "type": {
+        "body": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "https://bubble.io/?utm_source=app_mention&utm_content=uazapigo-multiatendimento",
+      "text": ""
+    }
+  ],
+  "meta": {
+    "description": "Bubble introduces a new way to build a web application. It’s a point-and-click programming tool. Bubble hosts all applications on its cloud platform.",
+    "icons": [
+      "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1530294839424x143528842134401200/Icon-no-clearspace.png"
+    ],
+    "og_image": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/f1762463484754x595287411041153000/Bubbleio%20opengraph.png",
+    "og_title": "Check out my Bubble app",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 193,
+        "y": 18
+      },
+      "class": "bubble-element Icon a1729539472923x187025998043840900",
+      "color": "#008069",
+      "depth": 10,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 193,
+        "y": 18
+      },
+      "color": "#008069",
+      "depth": 11,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 237,
+        "y": 18
+      },
+      "class": "bubble-element Icon a1728332644530x663206999441153800",
+      "color": "#008069",
+      "depth": 10,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 237,
+        "y": 18
+      },
+      "color": "#008069",
+      "depth": 11,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 281,
+        "y": 18
+      },
+      "class": "bubble-element Icon a1728332644528x375584567060697660",
+      "color": "#008069",
+      "depth": 11,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 281,
+        "y": 18
+      },
+      "color": "#008069",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 323,
+        "y": 18
+      },
+      "class": "clickable-element bubble-element Icon a1728332644528x449423185050745300",
+      "color": "#54656f",
+      "depth": 11,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 323,
+        "y": 18
+      },
+      "color": "#54656f",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 30,
+        "w": 30,
+        "x": 300,
+        "y": 841
+      },
+      "class": "bubble-element Icon a1728332644532x536570952721005440",
+      "color": "#111b21",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 30,
+        "w": 30,
+        "x": 300,
+        "y": 841
+      },
+      "color": "#111b21",
+      "depth": 8,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 320,
+        "w": 320,
+        "x": 740,
+        "y": 260
+      },
+      "color": "#000000",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://848eb58a091c96824743e97cb9bb3b38.cdn.bubble.io/cdn-cgi/image/f=auto,w=384,h=384,fit=contain,dpr=1/f1680709943042x969204118780854700/Furore%5B1%5D.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 240,
+        "x": 525,
+        "y": 120
+      },
+      "class": "bubble-element Text a1731765354922x979190226957265000",
+      "color": "#ffffff",
+      "depth": 4,
+      "font": "25px 700",
+      "tag": "h4",
+      "text": "Minhas credenciais"
+    },
+    {
+      "background": "#182334",
+      "box": {
+        "h": 48,
+        "w": 390,
+        "x": 525,
+        "y": 195
+      },
+      "class": "bubble-element Input a1731765354925x886532556859066800 a1795135395177x9418",
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "URL",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#182334",
+      "box": {
+        "h": 48,
+        "w": 390,
+        "x": 525,
+        "y": 282
+      },
+      "class": "bubble-element Input a1731765354926x762070550514204500 a1795135395177x9418",
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "INSTANCIA",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "alt": "Bubble",
+      "box": {
+        "h": 16,
+        "w": 15,
+        "x": 1308,
+        "y": 868
+      },
+      "color": "#000000",
+      "depth": 5,
+      "font": "16px 400",
+      "src": "https://a3f482aa37473c68f97b76bd2e4a3782.cdn.bubble.io/f1585607370503x914556455591480200/banner-icon.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 29,
+        "w": 128,
+        "x": 1302,
+        "y": 861
+      },
+      "color": "#000000",
+      "depth": 3,
+      "font": "16px 400",
+      "href": "https://bubble.io/?utm_source=app_mention&utm_content=uazapigo-multiatendimento",
+      "tag": "a"
+    }
+  ],
+  "page": {
+    "h": 900,
+    "w": 1440
+  },
+  "text": "Todos uazapi - a melhor API de WhatsApp para Bubble Minhas credenciais URL do Servidor Instance token Salvar Built on Bubble",
+  "title": "Multi -",
+  "unreadable_stylesheets": 3,
+  "url": "https://uazapigo-multiatendimento.bubbleapps.io/",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "revision": 5,
+  "brief": {
+    "question": "Como o app Bubble 'uazapigo-multiatendimento' funciona (e por que funciona), o que deu errado na recriação 'Dinamo Chat' feita no Draftbit, e reconstruir o inbox multiatendimento como site estático que funcione.",
+    "purpose": "Pessoa quer recriar o app fora do Bubble usando seus próprios provedores (UAZAPI principal) sem repetir os problemas da tentativa no Draftbit.",
+    "targets": [
+      "https://uazapigo-multiatendimento.bubbleapps.io/",
+      "C:\\Users\\a-fam\\Downloads\\dinamo-chat-web-app"
+    ],
+    "constraints": [
+      "Mudar arquivos só em app/",
+      "Não copiar marca/imagens do original",
+      "Sem servidores de desenvolvimento"
+    ],
+    "done_when": "Build estático em app/ que imita a tela do original (credenciais, lista de conversas, painel de chat) e fala com a UAZAPI do mesmo jeito; resumo do que deu certo/errado."
+  },
+  "plan": [],
+  "hypotheses": [],
+  "findings": [
+    {
+      "id": "fnd_1",
+      "statement": "O app Bubble lê e escreve direto na UAZAPI pelo navegador (cabeçalho 'token' da instância): lista conversas com POST /chat/find, mensagens com POST /message/find, e recebe tempo real por SSE em /sse?token=…&events=chats/messages. Não há banco próprio: o histórico é o armazenado pela própria UAZAPI.",
+      "evidence_ids": [
+        "ev_7daa4585116929fe6d767ddbf5da989a0a4251848405d7f748a079380f0083fe",
+        "ev_be1eeb7ffcec67afedd9cc0c09bc652ccf0e436d3725c4d41a70392cfe4affe7"
+      ],
+      "confidence": "observed"
+    },
+    {
+      "id": "fnd_2",
+      "statement": "No original, atendimento (aberto/fechado, atribuição, pausar o robô, etiquetas, notas, campos do lead) é gravado nos campos lead_* do chat na própria UAZAPI via POST /chat/editLead (lead_isTicketOpen, lead_assignedAttendant_id, lead_disableChatBotUntil), que o robô da UAZAPI respeita. Na tentativa Draftbit, 'Assumir' grava no banco Dinamo, que o robô externo não lê — daí a IA continuar respondendo.",
+      "evidence_ids": [
+        "ev_335d8f6d253bd73980276623fc6019449cb3ee13ade19c80976a7053224679c5"
+      ],
+      "confidence": "derived"
+    },
+    {
+      "id": "fnd_3",
+      "statement": "A tentativa no Draftbit (Dinamo Chat) trocou o modelo do original: em vez de ler a UAZAPI direto, depende da API Dinamo ter seu próprio inbox (ingestão de webhooks, Neon + Durable Objects). Os documentos dela registram as falhas que vieram disso: inbox vazio por falta de ingestão, contatos sem nome/foto, 503 por limite de CPU no worker, anexos não repassados ao provedor e 'Assumir' que não para a IA.",
+      "evidence_ids": [
+        "ev_be1eeb7ffcec67afedd9cc0c09bc652ccf0e436d3725c4d41a70392cfe4affe7"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "handoff": "Estado: app/ é um site estático (Vite+React+TS) que recria o inbox multiatendimento do Bubble falando direto com a UAZAPI (header token; /chat/find, /message/find, SSE /sse; editLead para atribuir/abrir-fechar/pausar robô; /chat/labels; /quickreply/showall; /send/text e /send/media com mp3 gravado). Camada de provedor em src/provider (uazapi.ts; demo.ts responde em memória quando a URL tem ?demo; ?c=<numero> abre conversa). rebuild_check passa (96%). Não testado contra uma instância UAZAPI real: formatos de resposta (ex.: id usado no editLead, unidade de lead_disableChatBotUntil em segundos, /message/download com return_link) são estimativas a partir do plugin. Próximo: testar com instância real; opcional adaptador para a API Dinamo (outros provedores). Armadilha: o token da instância fica no navegador, como no Bubble.",
+  "updated": "2026-11-20T01:04:41Z"
+}

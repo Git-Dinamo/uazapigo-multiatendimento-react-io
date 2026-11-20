@@ -1,0 +1,527 @@
+{
+  "id": "ev_87baf63df2f9bdcf1cdb3a225697bd300b5bf53551140fe680dd6aedfd918adb",
+  "subject": {
+    "kind": "website",
+    "name": "http://127.0.0.1:55192/"
+  },
+  "operation": "web_site_capture",
+  "params": {
+    "include_html": false,
+    "max_height": 12000,
+    "noise_pass": false,
+    "visitor_view": false,
+    "widths": [
+      1440,
+      768,
+      390
+    ]
+  },
+  "result": {
+    "counts": {
+      "forms": 1,
+      "headings": 0,
+      "images": 0,
+      "links": 0,
+      "outline": 20
+    },
+    "design": {
+      "backgrounds": [
+        {
+          "count": 4,
+          "value": "#ffffff"
+        },
+        {
+          "count": 2,
+          "value": "#182334"
+        },
+        {
+          "count": 1,
+          "value": "#b7bbcd33"
+        },
+        {
+          "count": 1,
+          "value": "#25d366"
+        },
+        {
+          "count": 1,
+          "value": "#f1f2f6"
+        },
+        {
+          "count": 1,
+          "value": "#daf7f3"
+        },
+        {
+          "count": 1,
+          "value": "#00000099"
+        },
+        {
+          "count": 1,
+          "value": "#242e42"
+        },
+        {
+          "count": 1,
+          "value": "#028edf0a"
+        },
+        {
+          "count": 1,
+          "value": "#028edfcc"
+        }
+      ],
+      "css_variables": {
+        "--alert": "#fab515",
+        "--avatar": "#dfe4e6",
+        "--bg-1": "#f1f2f6",
+        "--border": "#ebeced",
+        "--card": "#daf7f3",
+        "--danger": "#d62727",
+        "--font": "\"Open Sans\", Arial, sans-serif",
+        "--green-1": "#008069",
+        "--green-2": "#25d366",
+        "--green-bar": "#4ebb78",
+        "--head": "rgba(183, 187, 205, .2)",
+        "--icon": "#54656f",
+        "--out": "#d9fdd3",
+        "--panel": "#242e42",
+        "--panel-input": "#182334",
+        "--primary": "#028edf",
+        "--radius-l": "20px",
+        "--radius-m": "10px",
+        "--radius-s": "5px",
+        "--success": "#17db4e",
+        "--text-1": "#111b21",
+        "--text-2": "#667781"
+      },
+      "font_faces": [
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Open Sans",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        }
+      ],
+      "font_sizes": [
+        {
+          "count": 5,
+          "value": "14px"
+        },
+        {
+          "count": 1,
+          "value": "18px"
+        },
+        {
+          "count": 1,
+          "value": "25px"
+        }
+      ],
+      "font_weights": [
+        {
+          "count": 4,
+          "value": "700"
+        },
+        {
+          "count": 2,
+          "value": "400"
+        },
+        {
+          "count": 1,
+          "value": "600"
+        }
+      ],
+      "fonts": [
+        {
+          "count": 7,
+          "value": "\"Open Sans\", Arial, sans-serif"
+        }
+      ],
+      "max_widths": [
+        {
+          "count": 1,
+          "value": "360px"
+        },
+        {
+          "count": 1,
+          "value": "450px"
+        }
+      ],
+      "radii": [
+        {
+          "count": 4,
+          "value": "50%"
+        },
+        {
+          "count": 4,
+          "value": "20px"
+        },
+        {
+          "count": 3,
+          "value": "5px"
+        },
+        {
+          "count": 1,
+          "value": "10px"
+        },
+        {
+          "count": 1,
+          "value": "0px 0px 5px 5px"
+        }
+      ],
+      "shadows": [
+        {
+          "count": 1,
+          "value": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px"
+        },
+        {
+          "count": 1,
+          "value": "rgba(0, 0, 0, 0.2) 0px 0px 20px 0px"
+        }
+      ],
+      "spacing": [
+        {
+          "count": 15,
+          "value": "30px"
+        },
+        {
+          "count": 8,
+          "value": "6px"
+        },
+        {
+          "count": 7,
+          "value": "20px"
+        },
+        {
+          "count": 3,
+          "value": "10px"
+        },
+        {
+          "count": 1,
+          "value": "2px"
+        },
+        {
+          "count": 1,
+          "value": "12px"
+        },
+        {
+          "count": 1,
+          "value": "16px"
+        }
+      ],
+      "text_colors": [
+        {
+          "count": 4,
+          "value": "#ffffff"
+        },
+        {
+          "count": 2,
+          "value": "#667781"
+        },
+        {
+          "count": 1,
+          "value": "#111b21"
+        }
+      ]
+    },
+    "files": [
+      "README.md",
+      "capture.json"
+    ],
+    "html_bytes": 0,
+    "output_directory": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\round-1",
+    "screenshots": [
+      {
+        "css_width": 1440,
+        "cut": false,
+        "file": "screenshot-1440.png",
+        "height": 900,
+        "sha256": "b2e31937090b04608d5d3eb0cd40376b92748e4c6d5839c8b5757402e333097c",
+        "width": 1440
+      },
+      {
+        "css_width": 768,
+        "cut": false,
+        "file": "screenshot-768.png",
+        "height": 900,
+        "sha256": "1af75e25db0d1c1d75d5b950f4b36ad3a2c8ca8dbecf2e416f7086ced3e0d373",
+        "width": 768
+      },
+      {
+        "css_width": 390,
+        "cut": false,
+        "file": "screenshot-390.png",
+        "height": 900,
+        "sha256": "c88e6d0d430d7cb8caa7d6fd1b4401f38ec9aaa786c830d92818e03126ed199f",
+        "width": 390
+      }
+    ],
+    "title": "Multi -",
+    "url": "http://127.0.0.1:55192/"
+  },
+  "summary": "Captured http://127.0.0.1:55192/: 3 screenshot(s), 20 outline items, 0 headings, 0 images, 0 links, 1 forms → C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\round-1.",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "one_state",
+      "message": "One state of the page: menus, dialogs and content behind interactions are not opened."
+    },
+    {
+      "code": "cross_origin_css",
+      "message": "CSS custom properties and breakpoints from cross-origin stylesheets can't be read."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "http://127.0.0.1:55192/"
+    },
+    {
+      "kind": "path",
+      "value": "C:\\Users\\a-fam\\Documents\\Craft Anything\\uazapigo-multiatendimento-bubbleapps-io\\checks\\round-1"
+    }
+  ],
+  "links": []
+}

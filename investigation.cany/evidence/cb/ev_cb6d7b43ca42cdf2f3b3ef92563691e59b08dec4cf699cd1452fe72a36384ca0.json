@@ -1,0 +1,58 @@
+{
+  "id": "ev_cb6d7b43ca42cdf2f3b3ef92563691e59b08dec4cf699cd1452fe72a36384ca0",
+  "subject": {
+    "kind": "website",
+    "name": "about:blank"
+  },
+  "operation": "core_evidence_browse",
+  "params": {
+    "show": {
+      "kind": "rows",
+      "limit": 10,
+      "list": "families"
+    },
+    "source": {
+      "evidence_id": "ev_2c3f99595b3e23e3007c22b19c0380e3965d4d39e8c3fde08857cc6ae659a02f",
+      "kind": "saved"
+    }
+  },
+  "result": {
+    "coverage": {
+      "at_end": true,
+      "examined": 2,
+      "next_offset": null,
+      "status": "page",
+      "total": 2
+    },
+    "from_evidence": "ev_2c3f99595b3e23e3007c22b19c0380e3965d4d39e8c3fde08857cc6ae659a02f",
+    "from_tool": "web_walkthrough_record",
+    "shown": {
+      "items": [
+        "console",
+        "page_errors"
+      ],
+      "list": "families",
+      "offset": 0,
+      "total": 2
+    }
+  },
+  "summary": "Part of web_walkthrough_record evidence (page).",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 2,
+    "total": 2
+  },
+  "locations": [],
+  "links": [
+    "ev_2c3f99595b3e23e3007c22b19c0380e3965d4d39e8c3fde08857cc6ae659a02f"
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "complementary": 1
+    },
+    "lang": "pt",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [
+      "https://fonts.googleapis.com/css2"
+    ],
+    "images": [],
+    "inline_scripts": 0,
+    "requests": [
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://fonts.googleapis.com/css2"
+      },
+      {
+        "bytes": 382202,
+        "type": "script",
+        "url": "http://127.0.0.1:55192/assets/index-6PePfZWq.js"
+      },
+      {
+        "bytes": 18779,
+        "type": "link",
+        "url": "http://127.0.0.1:55192/assets/index-BaSlYOz2.css"
+      },
+      {
+        "bytes": 1450,
+        "type": "other",
+        "url": "http://127.0.0.1:55192/favicon.ico"
+      },
+      {
+        "bytes": 518,
+        "type": "other",
+        "url": "http://127.0.0.1:55192/favicon.svg"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:55192/assets/index-6PePfZWq.js"
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap",
+      "http://127.0.0.1:55192/assets/index-BaSlYOz2.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 420,
+      "query": "max-width 420px"
+    },
+    {
+      "count": 1,
+      "px": 760,
+      "query": "max-width 760px"
+    },
+    {
+      "count": 1,
+      "px": 1100,
+      "query": "max-width 1100px"
+    },
+    {
+      "count": 1,
+      "px": 1280,
+      "query": "max-width 1280px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 4,
+        "value": "#ffffff"
+      },
+      {
+        "count": 2,
+        "value": "#182334"
+      },
+      {
+        "count": 1,
+        "value": "#b7bbcd33"
+      },
+      {
+        "count": 1,
+        "value": "#25d366"
+      },
+      {
+        "count": 1,
+        "value": "#f1f2f6"
+      },
+      {
+        "count": 1,
+        "value": "#daf7f3"
+      },
+      {
+        "count": 1,
+        "value": "#00000099"
+      },
+      {
+        "count": 1,
+        "value": "#242e42"
+      },
+      {
+        "count": 1,
+        "value": "#028edf0a"
+      },
+      {
+        "count": 1,
+        "value": "#028edfcc"
+      }
+    ],
+    "css_variables": {
+      "--alert": "#fab515",
+      "--avatar": "#dfe4e6",
+      "--bg-1": "#f1f2f6",
+      "--border": "#ebeced",
+      "--card": "#daf7f3",
+      "--danger": "#d62727",
+      "--font": "\"Open Sans\", Arial, sans-serif",
+      "--green-1": "#008069",
+      "--green-2": "#25d366",
+      "--green-bar": "#4ebb78",
+      "--head": "rgba(183, 187, 205, .2)",
+      "--icon": "#54656f",
+      "--out": "#d9fdd3",
+      "--panel": "#242e42",
+      "--panel-input": "#182334",
+      "--primary": "#028edf",
+      "--radius-l": "20px",
+      "--radius-m": "10px",
+      "--radius-s": "5px",
+      "--success": "#17db4e",
+      "--text-1": "#111b21",
+      "--text-2": "#667781"
+    },
+    "font_faces": [
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Open Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 5,
+        "value": "14px"
+      },
+      {
+        "count": 1,
+        "value": "18px"
+      },
+      {
+        "count": 1,
+        "value": "25px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 4,
+        "value": "700"
+      },
+      {
+        "count": 2,
+        "value": "400"
+      },
+      {
+        "count": 1,
+        "value": "600"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 7,
+        "value": "\"Open Sans\", Arial, sans-serif"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 1,
+        "value": "360px"
+      },
+      {
+        "count": 1,
+        "value": "450px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 4,
+        "value": "50%"
+      },
+      {
+        "count": 4,
+        "value": "20px"
+      },
+      {
+        "count": 3,
+        "value": "5px"
+      },
+      {
+        "count": 1,
+        "value": "10px"
+      },
+      {
+        "count": 1,
+        "value": "0px 0px 5px 5px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.12) 0px 2px 6px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.2) 0px 0px 20px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 15,
+        "value": "30px"
+      },
+      {
+        "count": 8,
+        "value": "6px"
+      },
+      {
+        "count": 7,
+        "value": "20px"
+      },
+      {
+        "count": 3,
+        "value": "10px"
+      },
+      {
+        "count": 1,
+        "value": "2px"
+      },
+      {
+        "count": 1,
+        "value": "12px"
+      },
+      {
+        "count": 1,
+        "value": "16px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 4,
+        "value": "#ffffff"
+      },
+      {
+        "count": 2,
+        "value": "#667781"
+      },
+      {
+        "count": 1,
+        "value": "#111b21"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "URL do Servidor",
+          "name": "",
+          "placeholder": "URL",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Instance token",
+          "name": "",
+          "placeholder": "INSTANCIA",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "pt",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#ffffff",
+          "column": {
+            "max_w": 360,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 360,
+            "x": 0
+          },
+          "h": 900,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "aside",
+          "w": 360,
+          "y": 0
+        },
+        {
+          "background": "#b7bbcd33",
+          "h": 60,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 359,
+          "y": 0
+        },
+        {
+          "background": "#f1f2f6",
+          "h": 900,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 1080,
+          "y": 0
+        }
+      ],
+      "page_h": 900,
+      "page_w": 1440,
+      "type": {
+        "body": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#ffffff",
+          "column": {
+            "max_w": 360,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 360,
+            "x": 0
+          },
+          "h": 900,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "aside",
+          "w": 360,
+          "y": 0
+        },
+        {
+          "background": "#b7bbcd33",
+          "h": 60,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 359,
+          "y": 0
+        },
+        {
+          "background": "#f1f2f6",
+          "h": 900,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 408,
+          "y": 0
+        }
+      ],
+      "page_h": 900,
+      "page_w": 768,
+      "type": {
+        "body": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "background": "#ffffff",
+          "column": {
+            "max_w": 360,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 360,
+            "x": 0
+          },
+          "h": 900,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "aside",
+          "w": 360,
+          "y": 0
+        },
+        {
+          "background": "#b7bbcd33",
+          "h": 60,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 359,
+          "y": 0
+        },
+        {
+          "background": "#f1f2f6",
+          "h": 900,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 30,
+          "y": 0
+        }
+      ],
+      "page_h": 900,
+      "page_w": 390,
+      "type": {
+        "body": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [],
+  "meta": {
+    "description": "",
+    "icons": [
+      "http://127.0.0.1:55192/favicon.svg",
+      "http://127.0.0.1:55192/favicon.ico"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "background": "#ffffff",
+      "box": {
+        "h": 900,
+        "w": 360,
+        "x": 0,
+        "y": 0
+      },
+      "class": "side",
+      "color": "#111b21",
+      "depth": 4,
+      "display": "block",
+      "font": "14px 400",
+      "tag": "aside"
+    },
+    {
+      "background": "#b7bbcd33",
+      "box": {
+        "h": 60,
+        "w": 359,
+        "x": 0,
+        "y": 0
+      },
+      "class": "side-head blur",
+      "color": "#111b21",
+      "depth": 5,
+      "display": "block",
+      "font": "14px 400",
+      "tag": "header"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 193,
+        "y": 19
+      },
+      "class": "ib green",
+      "color": "#008069",
+      "depth": 8,
+      "font": "14px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 193,
+        "y": 19
+      },
+      "color": "#008069",
+      "depth": 9,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 237,
+        "y": 19
+      },
+      "class": "ib green",
+      "color": "#008069",
+      "depth": 9,
+      "font": "14px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 237,
+        "y": 19
+      },
+      "color": "#008069",
+      "depth": 10,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 281,
+        "y": 19
+      },
+      "class": "ib green",
+      "color": "#008069",
+      "depth": 8,
+      "font": "14px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 281,
+        "y": 19
+      },
+      "color": "#008069",
+      "depth": 9,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 323,
+        "y": 19
+      },
+      "class": "ib grey",
+      "color": "#54656f",
+      "depth": 9,
+      "font": "14px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 24,
+        "x": 323,
+        "y": 19
+      },
+      "color": "#54656f",
+      "depth": 10,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#25d366",
+      "box": {
+        "h": 48,
+        "w": 48,
+        "x": 290,
+        "y": 832
+      },
+      "class": "fab",
+      "color": "#111b21",
+      "depth": 5,
+      "font": "14px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 30,
+        "w": 30,
+        "x": 299,
+        "y": 841
+      },
+      "color": "#111b21",
+      "depth": 6,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#f1f2f6",
+      "box": {
+        "h": 900,
+        "w": 1080,
+        "x": 360,
+        "y": 0
+      },
+      "class": "empty",
+      "color": "#111b21",
+      "depth": 4,
+      "display": "flex",
+      "flex": "row",
+      "font": "14px 400",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 320,
+        "w": 320,
+        "x": 740,
+        "y": 250
+      },
+      "color": "#111b21",
+      "depth": 7,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#242e42",
+      "box": {
+        "h": 365,
+        "w": 450,
+        "x": 495,
+        "y": 50
+      },
+      "class": "cred",
+      "color": "#ffffff",
+      "depth": 4,
+      "font": "14px 400",
+      "role": "dialog",
+      "tag": "div",
+      "text": "Minhas credenciais URL do Servidor Instance token Salvar"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 390,
+        "x": 525,
+        "y": 70
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "25px 700",
+      "id": "cred-title",
+      "tag": "h4",
+      "text": "Minhas credenciais"
+    },
+    {
+      "box": {
+        "h": 185,
+        "w": 450,
+        "x": 495,
+        "y": 115
+      },
+      "class": "cred-body",
+      "color": "#ffffff",
+      "depth": 5,
+      "display": "flex",
+      "flex": "column",
+      "font": "14px 400",
+      "tag": "form"
+    },
+    {
+      "background": "#182334",
+      "box": {
+        "h": 48,
+        "w": 390,
+        "x": 525,
+        "y": 145
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "14px 400",
+      "id": "cred-url",
+      "name": "",
+      "placeholder": "URL",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#182334",
+      "box": {
+        "h": 48,
+        "w": 390,
+        "x": 525,
+        "y": 232
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "14px 400",
+      "id": "cred-token",
+      "name": "",
+      "placeholder": "INSTANCIA",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#028edfcc",
+      "box": {
+        "h": 45,
+        "w": 410,
+        "x": 515,
+        "y": 340
+      },
+      "class": "cred-save",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "14px 600",
+      "tag": "button",
+      "text": "Salvar"
+    }
+  ],
+  "page": {
+    "h": 900,
+    "w": 1440
+  },
+  "text": "Todos uazapi - API de WhatsApp · conecte sua instância para começar Minhas credenciais URL do Servidor Instance token Salvar",
+  "title": "Multi -",
+  "unreadable_stylesheets": 1,
+  "url": "http://127.0.0.1:55192/",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

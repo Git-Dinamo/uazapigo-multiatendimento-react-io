@@ -1,0 +1,61 @@
+{
+  "id": "ev_e135d95297056b8ab209ce954ccf8267015d2c33ca4092ee3959b96385ea4c69",
+  "subject": {
+    "kind": "website",
+    "name": "http://127.0.0.1:59678/"
+  },
+  "operation": "web_site_open",
+  "params": {
+    "height": 900,
+    "url": "http://127.0.0.1:59678/",
+    "width": 1440
+  },
+  "result": {
+    "browser": "Chrome/157.0.8103.79",
+    "facts": {
+      "elements": 83,
+      "forms": 1,
+      "height": 900,
+      "images": 0,
+      "lang": "pt",
+      "links": 0,
+      "ready": "complete",
+      "title": "Multi -",
+      "url": "http://127.0.0.1:59678/",
+      "width": 1440
+    },
+    "health": {
+      "errors": [],
+      "failed_requests": []
+    },
+    "title": "Multi -",
+    "url": "http://127.0.0.1:59678/"
+  },
+  "summary": "Opened http://127.0.0.1:59678/: \"Multi -\".",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "private_profile",
+      "message": "A fresh private browser: pages behind a login show their signed-out state."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "http://127.0.0.1:59678/"
+    }
+  ],
+  "links": []
+}

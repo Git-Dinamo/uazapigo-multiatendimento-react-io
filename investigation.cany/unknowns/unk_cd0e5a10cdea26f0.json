@@ -1,0 +1,17 @@
+{
+  "id": "unk_cd0e5a10cdea26f0",
+  "revision": 2,
+  "question": "Como é a tela do original depois de entrar com credenciais válidas (itens da lista, painel da conversa, painel do contato)?",
+  "severity": "medium",
+  "domain": "ui",
+  "status": "blocked",
+  "probes": [
+    "Abrir o original com uma instância de teste e capturar a tela logada",
+    "Pedir prints à pessoa"
+  ],
+  "evidence_for": [
+    "ev_335d8f6d253bd73980276623fc6019449cb3ee13ade19c80976a7053224679c5"
+  ],
+  "evidence_against": [],
+  "resolution": "Sem credenciais não dá para ver a tela logada do original. Feito no lugar: textos e campos lidos da definição da página Bubble (filtros Todos/Não lidas/Atribuídas à mim/Grupos/Arquivadas/Bloqueados, atribuir, atendimento aberto/fechado, etiquetas, notas, campos do lead, respostas rápidas) e medidas do item da lista (avatar 44px, nome 14px, prévia 12px, hora 11px, contador verde 22px). Cores das bolhas e do fundo da conversa são estimativa no estilo WhatsApp Web."
+}

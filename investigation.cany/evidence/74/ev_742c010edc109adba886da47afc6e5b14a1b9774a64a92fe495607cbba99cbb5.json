@@ -1,0 +1,111 @@
+{
+  "id": "ev_742c010edc109adba886da47afc6e5b14a1b9774a64a92fe495607cbba99cbb5",
+  "subject": {
+    "kind": "website",
+    "name": "about:blank"
+  },
+  "operation": "core_evidence_browse",
+  "params": {
+    "show": {
+      "fields": [
+        "step_id",
+        "status",
+        "error",
+        "url"
+      ],
+      "kind": "rows",
+      "list": "steps"
+    },
+    "source": {
+      "evidence_id": "ev_2c3f99595b3e23e3007c22b19c0380e3965d4d39e8c3fde08857cc6ae659a02f",
+      "kind": "saved"
+    }
+  },
+  "result": {
+    "coverage": {
+      "at_end": true,
+      "examined": 10,
+      "next_offset": null,
+      "status": "page",
+      "total": 10
+    },
+    "from_evidence": "ev_2c3f99595b3e23e3007c22b19c0380e3965d4d39e8c3fde08857cc6ae659a02f",
+    "from_tool": "web_walkthrough_record",
+    "shown": {
+      "items": [
+        {
+          "status": "ok",
+          "step_id": "lista",
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": "abrir",
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": null,
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": "digitar",
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": "enviar",
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": null,
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": "atribuir",
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": null,
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": "contato",
+          "url": "http://127.0.0.1:55552/?demo"
+        },
+        {
+          "status": "ok",
+          "step_id": null,
+          "url": "http://127.0.0.1:55552/?demo"
+        }
+      ],
+      "list": "steps",
+      "offset": 0,
+      "total": 10
+    }
+  },
+  "summary": "Part of web_walkthrough_record evidence (page).",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-aarch64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 10,
+    "total": 10
+  },
+  "locations": [],
+  "links": [
+    "ev_2c3f99595b3e23e3007c22b19c0380e3965d4d39e8c3fde08857cc6ae659a02f"
+  ]
+}

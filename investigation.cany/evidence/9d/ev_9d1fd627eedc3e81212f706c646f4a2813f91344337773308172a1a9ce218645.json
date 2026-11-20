@@ -1,0 +1,67 @@
+{
+  "id": "ev_9d1fd627eedc3e81212f706c646f4a2813f91344337773308172a1a9ce218645",
+  "subject": {
+    "kind": "website",
+    "name": "https://uazapigo-multiatendimento.bubbleapps.io/"
+  },
+  "operation": "web_site_open",
+  "params": {
+    "height": 900,
+    "url": "https://uazapigo-multiatendimento.bubbleapps.io/",
+    "width": 1440
+  },
+  "result": {
+    "browser": "Chrome/157.0.8103.79",
+    "facts": {
+      "elements": 231,
+      "forms": 0,
+      "height": 900,
+      "images": 3,
+      "lang": "pt",
+      "links": 1,
+      "ready": "complete",
+      "title": "Multi -",
+      "url": "https://uazapigo-multiatendimento.bubbleapps.io/",
+      "width": 1440
+    },
+    "health": {
+      "errors": [
+        {
+          "kind": "console",
+          "text": "Action Clear value of 💬 chat Input - The plugin Chat Input PRO / action Clear value of a 💬 chat Input threw the following error: TypeError: instance.data.reset is not a function",
+          "url": ""
+        }
+      ],
+      "failed_requests": []
+    },
+    "title": "Multi -",
+    "url": "https://uazapigo-multiatendimento.bubbleapps.io/"
+  },
+  "summary": "Opened https://uazapigo-multiatendimento.bubbleapps.io/: \"Multi -\". While loading: 1 error(s), 0 failed request(s).",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-aarch64"
+  },
+  "limitations": [
+    {
+      "code": "private_profile",
+      "message": "A fresh private browser: pages behind a login show their signed-out state."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://uazapigo-multiatendimento.bubbleapps.io/"
+    }
+  ],
+  "links": []
+}
